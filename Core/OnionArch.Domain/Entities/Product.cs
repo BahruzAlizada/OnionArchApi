@@ -1,6 +1,4 @@
-﻿
-
-using OnionArch.Domain.Common;
+﻿using OnionArch.Domain.Common;
 
 namespace OnionArch.Domain.Entities
 {
@@ -11,5 +9,6 @@ namespace OnionArch.Domain.Entities
         public double Price { get; set; }
 
         public ICollection<Order> Orders { get; set; }
+        public ICollection<BasketItem> BasketItems { get; set; }
     }
 }

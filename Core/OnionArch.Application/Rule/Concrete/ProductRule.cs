@@ -13,15 +13,7 @@ namespace OnionArch.Application.Rule.Concrete
             this.productReadRepository = productReadRepository;
         }
 
-        //public Result CheckIfNameExisted(string name)
-        //{
-        //    var products = productReadRepository.GetAll(false).Any(x => x.Name == name);
-        //    if (products)
-        //        return new Result { Success = false, Message = Messages.CheckIfNameExisted };
-
-        //    return new Result { Success = true };
-        //}
-
+      
         public Result CheckIfNameExisted(string name, Guid? id = null)
         {
             if (id.HasValue)

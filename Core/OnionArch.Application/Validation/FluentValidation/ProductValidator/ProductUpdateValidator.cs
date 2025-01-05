@@ -1,9 +1,7 @@
-﻿
-
-using FluentValidation;
+﻿using FluentValidation;
 using OnionArch.Application.DTOs;
 
-namespace OnionArch.Application.Validation.FluentValidation
+namespace OnionArch.Application.Validation.FluentValidation.ProductValidator
 {
     public class ProductUpdateValidator : AbstractValidator<ProductUpdateDto>
     {

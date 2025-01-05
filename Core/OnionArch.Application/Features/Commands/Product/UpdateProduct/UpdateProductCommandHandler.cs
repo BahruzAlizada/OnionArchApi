@@ -5,7 +5,7 @@ using OnionArch.Application.Constant;
 using OnionArch.Application.Extensions.FluentValidationExtension;
 using OnionArch.Application.Rule;
 using OnionArch.Application.Rule.Abstract;
-using OnionArch.Application.Validation.FluentValidation;
+using OnionArch.Application.Validation.FluentValidation.ProductValidator;
 
 namespace OnionArch.Application.Features.Commands.Product.UpdateProduct
 {

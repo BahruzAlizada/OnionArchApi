@@ -14,6 +14,7 @@ namespace OnionArch.Application.Registration
             services.AddAutoMapper(typeof(DtoMapper));
 
             services.AddScoped<IProductRule,ProductRule>();
+            services.AddScoped<IRoleRule, RoleRule>();
         }
     }
 }
